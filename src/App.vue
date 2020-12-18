@@ -2,6 +2,8 @@
 
 <div class="body">
  <div class="header">
+    <link href="http://fonts.cdnfonts.com/css/poetsen-one" rel="stylesheet">
+
       <h1 id="titulo">LibretApp</h1>
         <!--<button>Gastos</button>-->
   </div>
@@ -36,17 +38,21 @@
 </script>
 
 <style>
-.body{
-  background-color: darkgrey;
+@import url('http://fonts.cdnfonts.com/css/poetsen-one?styles=54169');
+body{
+  background-color: #FFFFFF;
+  color:#000000;
+  font-family: 'PoetsenOne';
   border-radius: 12px;
   width: 90%;
   box-shadow: 8px 8px 8px #999;
   margin: auto;
 }
 .header {
+    background-color: #37B6FF;
+    color:#000000;
+    font-family: 'PoetsenOne';
     height: 50px;
-    background: rgba(30, 75, 83, 0.98);
-    color: #fff;    
     align-items: center;
     border-radius: 8px;
 }
@@ -56,8 +62,8 @@
 }
 .footer{
     height: 50px;
-    background: rgba(30, 75, 83, 0.98);
-    color: #fff;
+    background: #37B6FF;
+    color: #000000;
     text-align: center;
     border-radius: 8px;
 }
@@ -78,7 +84,8 @@
   border-radius: 10px;
 }
 #titulo{
-    color: #fff;
+    color: #000;
+    font-family: 'PoetsenOne';
     margin-right: auto;
     padding: 10px;
     border-color: #747d8c;
@@ -93,7 +100,7 @@
 .button{
     /*display: block;*/
     padding: 15px 20px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     margin-top: 10px 5px 10 px;
 } 
