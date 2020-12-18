@@ -9,18 +9,27 @@
     <div class="titulo_2">
       <h2>Gastos por pagar</h2> <!--Validar nombre-->
     </div>
-    <h3>Nombre</h3>
-    <h3>Valor</h3>
-    <h3>Fecha de pago</h3>
-    <h3>Vencido</h3>
+     
+      
+      Nombre: <input type="text" placeholder="Ej: Francisco">
+      <br>
+      Valor: &nbsp;&nbsp; <input type="text" placeholder="Ej: 150000">
+      <br>
+      Fecha: &nbsp; <input type="date">
+      <br>
+      Estado: <input type="text" placeholder="Al dia - Atrasado">
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="envio" type="submit">
+      
+    
   </div>
-
+<!--
   <div class="gastos">
     <div class="titulo_2">
-      <h2>Gastos Pagados</h2> <!--Validar nombre-->
+      <h2>Gastos Pagados</h2> Validar nombre
     </div>
   </div>
-
+-->
 
   <div class="footer">
       <h3>Todos los derechos reservados 2020</h3> 
@@ -36,6 +45,11 @@
 </script>
 
 <style>
+
+#envio{
+  width: 100px;
+  background: rgb(205, 223, 226);
+}
 .body{
   background-color: darkgrey;
   border-radius: 12px;
@@ -54,6 +68,9 @@
 .header h1{
   text-align: center;
 }
+
+
+
 .footer{
     height: 50px;
     background: rgba(30, 75, 83, 0.98);
@@ -76,6 +93,15 @@
   margin: auto;
   width: 45%;
   border-radius: 10px;
+  text-align: center;
+}
+
+.gastos input{
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #999;
+  margin-bottom: 10px;
+  text-align: center;
+  border-color: #999;
 }
 #titulo{
     color: #fff;
